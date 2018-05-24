@@ -1,0 +1,16 @@
+# CoreJava
+publi class Student{
+private String name;
+private String school;
+private Course course;
+
+public Student(){
+this.name= name;
+this.school=school;
+this.course=course;
+}
+
+protected Object clone() throws CloneNotSupportException{
+return super.clone();
+}
+
